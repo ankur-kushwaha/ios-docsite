@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7C0D269DB14542A8D8D186D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C0DF1C4A2DAA8C61512DD2 /* Main.storyboard */; };
+		A7C0D922B18000BB58851D81 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A7C0DC5A23D3B8922CBC3A61 /* .gitignore */; };
+		A7C0DBB51E766B96F7137C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C0D015C0882D387147913C /* Assets.xcassets */; };
+		A7C0DC0D8BA6FE309C9552CD /* DocsiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0DD4373F67653E9B59D1B /* DocsiteTests.swift */; };
+		A7C0DC552C70E16FB29C065B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0D4D5F7E3218CF0ED5114 /* DetailViewController.swift */; };
+		A7C0DD785DF414E923C664C8 /* DocsiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0D330C9DB86EC3D9789DC /* DocsiteUITests.swift */; };
+		A7C0DF1E18009ECDD8537C67 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0D977317BF3C0F3FB5954 /* MasterViewController.swift */; };
+		A7C0DF582504A90E226A85CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C0D17E329F5B3C0242E90C /* LaunchScreen.storyboard */; };
+		A7C0DFEA8C8E21D33B207479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0DB1464ED1F97BDA22609 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7C0D0C6621FFF5C73344F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C0D0EF4806486851A57CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C0D060BA5CB38A696FD15B;
+			remoteInfo = Docsite;
+		};
+		A7C0D3CE87CD06C0FAAEF330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C0D0EF4806486851A57CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C0D060BA5CB38A696FD15B;
+			remoteInfo = Docsite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7C0D015C0882D387147913C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7C0D02D3C02B8D37E5B0E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7C0D2687B0D7975EFA6F284 /* DocsiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocsiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C0D2D8365614E49020542F /* Docsite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Docsite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C0D2EC49B3828947C38BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A7C0D330C9DB86EC3D9789DC /* DocsiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsiteUITests.swift; sourceTree = "<group>"; };
+		A7C0D332E004CE654BC8FB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A7C0D3CEDF40120B1BB316F4 /* DocsiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocsiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C0D4D5F7E3218CF0ED5114 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A7C0D977317BF3C0F3FB5954 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A7C0DA558DDB6CEAAC8DCB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7C0DB1464ED1F97BDA22609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7C0DC5A23D3B8922CBC3A61 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		A7C0DD4373F67653E9B59D1B /* DocsiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsiteTests.swift; sourceTree = "<group>"; };
+		A7C0DF43D5B105E298BE2FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7C0D3A1D1457CE994B02E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0D7F41E8F906FAE949756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0DB823B197F7C95C60B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7C0D127FE49F1991AB7A4CD = {
+			isa = PBXGroup;
+			children = (
+				A7C0D8C25656276E745845DA /* Products */,
+				A7C0D20A7F7BB9AE67E7D5E5 /* Docsite */,
+				A7C0D3ED7BF6C273E022B06D /* DocsiteTests */,
+				A7C0D90D1D7BDE1482358144 /* DocsiteUITests */,
+				A7C0DC5A23D3B8922CBC3A61 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		A7C0D20A7F7BB9AE67E7D5E5 /* Docsite */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0D2EC49B3828947C38BE4 /* Info.plist */,
+				A7C0D015C0882D387147913C /* Assets.xcassets */,
+				A7C0D17E329F5B3C0242E90C /* LaunchScreen.storyboard */,
+				A7C0DB1464ED1F97BDA22609 /* AppDelegate.swift */,
+				A7C0DF1C4A2DAA8C61512DD2 /* Main.storyboard */,
+				A7C0D977317BF3C0F3FB5954 /* MasterViewController.swift */,
+				A7C0D4D5F7E3218CF0ED5114 /* DetailViewController.swift */,
+			);
+			path = Docsite;
+			sourceTree = "<group>";
+		};
+		A7C0D3ED7BF6C273E022B06D /* DocsiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0D332E004CE654BC8FB09 /* Info.plist */,
+				A7C0DD4373F67653E9B59D1B /* DocsiteTests.swift */,
+			);
+			path = DocsiteTests;
+			sourceTree = "<group>";
+		};
+		A7C0D8C25656276E745845DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0D2D8365614E49020542F /* Docsite.app */,
+				A7C0D2687B0D7975EFA6F284 /* DocsiteTests.xctest */,
+				A7C0D3CEDF40120B1BB316F4 /* DocsiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C0D90D1D7BDE1482358144 /* DocsiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0DF43D5B105E298BE2FFF /* Info.plist */,
+				A7C0D330C9DB86EC3D9789DC /* DocsiteUITests.swift */,
+			);
+			path = DocsiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7C0D060BA5CB38A696FD15B /* Docsite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C0D6EB9294073C28810010 /* Build configuration list for PBXNativeTarget "Docsite" */;
+			buildPhases = (
+				A7C0DC7A827B3EC34CD381B9 /* Sources */,
+				A7C0D7F41E8F906FAE949756 /* Frameworks */,
+				A7C0D657984F8EEF44F6BE33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Docsite;
+			productName = Docsite;
+			productReference = A7C0D2D8365614E49020542F /* Docsite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7C0D4B1876FF3432ECCBBE4 /* DocsiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C0D5DA1F53D72F64DB9C27 /* Build configuration list for PBXNativeTarget "DocsiteTests" */;
+			buildPhases = (
+				A7C0D724F1B5703F06FEE12C /* Sources */,
+				A7C0D3A1D1457CE994B02E79 /* Frameworks */,
+				A7C0DD62235D0A58AA1CEB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C0DB6702F849E044B1FCA7 /* PBXTargetDependency */,
+			);
+			name = DocsiteTests;
+			productName = DocsiteTests;
+			productReference = A7C0D2687B0D7975EFA6F284 /* DocsiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7C0DB377AB703F89B9BC440 /* DocsiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C0DB162D284750FDD3AD58 /* Build configuration list for PBXNativeTarget "DocsiteUITests" */;
+			buildPhases = (
+				A7C0DBF85999D7EECD924303 /* Sources */,
+				A7C0DB823B197F7C95C60B56 /* Frameworks */,
+				A7C0D5928EBA2D215EA2EB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C0DB588835781C73866F97 /* PBXTargetDependency */,
+			);
+			name = DocsiteUITests;
+			productName = DocsiteUITests;
+			productReference = A7C0D3CEDF40120B1BB316F4 /* DocsiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C0D0EF4806486851A57CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = A7C0D118B97FF7C9E9BB01A7 /* Build configuration list for PBXProject "Docsite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7C0D127FE49F1991AB7A4CD;
+			productRefGroup = A7C0D8C25656276E745845DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7C0D060BA5CB38A696FD15B /* Docsite */,
+				A7C0D4B1876FF3432ECCBBE4 /* DocsiteTests */,
+				A7C0DB377AB703F89B9BC440 /* DocsiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7C0D5928EBA2D215EA2EB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0D657984F8EEF44F6BE33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C0DBB51E766B96F7137C95 /* Assets.xcassets in Resources */,
+				A7C0DF582504A90E226A85CA /* LaunchScreen.storyboard in Resources */,
+				A7C0D269DB14542A8D8D186D /* Main.storyboard in Resources */,
+				A7C0D922B18000BB58851D81 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0DD62235D0A58AA1CEB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7C0D724F1B5703F06FEE12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C0DC0D8BA6FE309C9552CD /* DocsiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0DBF85999D7EECD924303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C0DD785DF414E923C664C8 /* DocsiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0DC7A827B3EC34CD381B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C0DFEA8C8E21D33B207479 /* AppDelegate.swift in Sources */,
+				A7C0DF1E18009ECDD8537C67 /* MasterViewController.swift in Sources */,
+				A7C0DC552C70E16FB29C065B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7C0DB588835781C73866F97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7C0D060BA5CB38A696FD15B /* Docsite */;
+			targetProxy = A7C0D0C6621FFF5C73344F75 /* PBXContainerItemProxy */;
+		};
+		A7C0DB6702F849E044B1FCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7C0D060BA5CB38A696FD15B /* Docsite */;
+			targetProxy = A7C0D3CE87CD06C0FAAEF330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7C0D17E329F5B3C0242E90C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C0D02D3C02B8D37E5B0E78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7C0DF1C4A2DAA8C61512DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C0DA558DDB6CEAAC8DCB2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7C0D090A49397F53ADB89B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7C0D38FE04BCF1CBB440DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DocsiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = expedia.ad.DocsiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Docsite;
+			};
+			name = Release;
+		};
+		A7C0D9C9C49BE6FB9F109F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DocsiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = expedia.ad.DocsiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Docsite;
+			};
+			name = Debug;
+		};
+		A7C0DA856027A71D3235570E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Docsite.app/Docsite";
+				INFOPLIST_FILE = DocsiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = expedia.ad.DocsiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A7C0DAB61E9AB7A75400592F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Docsite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = expedia.ad.Docsite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7C0DC3CEBB2FFDAEC919D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Docsite.app/Docsite";
+				INFOPLIST_FILE = DocsiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = expedia.ad.DocsiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		A7C0DDB6B4DD1D62056BB334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7C0DF040E360801CC63DEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Docsite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = expedia.ad.Docsite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7C0D118B97FF7C9E9BB01A7 /* Build configuration list for PBXProject "Docsite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C0DDB6B4DD1D62056BB334 /* Debug */,
+				A7C0D090A49397F53ADB89B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C0D5DA1F53D72F64DB9C27 /* Build configuration list for PBXNativeTarget "DocsiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C0DA856027A71D3235570E /* Debug */,
+				A7C0DC3CEBB2FFDAEC919D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7C0D6EB9294073C28810010 /* Build configuration list for PBXNativeTarget "Docsite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C0DF040E360801CC63DEE7 /* Debug */,
+				A7C0DAB61E9AB7A75400592F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7C0DB162D284750FDD3AD58 /* Build configuration list for PBXNativeTarget "DocsiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C0D9C9C49BE6FB9F109F42 /* Debug */,
+				A7C0D38FE04BCF1CBB440DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7C0D0EF4806486851A57CF2 /* Project object */;
+}
